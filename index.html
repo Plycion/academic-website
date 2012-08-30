@@ -2,19 +2,6 @@
 <html>
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
-		
-		<script type="text/javascript">
-		var t = false;
-		function myFunction()
-		{
-			t = !t;
-			var str;
-			if (t) {str = "IDH"} 
-			else {str = "Plycion"}
-			document.getElementsByTagName("h1")[0].innerHTML = str;
-		}
-		</script>
-
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="http://www.bitstorm.org/jquery/color-animation/jquery.animate-colors-min.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -30,17 +17,17 @@
 <!--		<link rel="stylesheet" type="text/css" href="merri-style.css">-->
 <!--		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>-->
 		
-		<title>Plycion</title>
+		<title>Itai David Hass</title>
 	</head>
 	<body>
 
 		<div id="mainBlock">
 			<div id="header">
-				<h1 onclick="myFunction()">
-					Plycion
+				<h1>
+					Itai David Hass
 				</h1>
 				<h2>
-					// Code. Think. Argue. IDH.
+					// Code. Think. Argue.
 				</h2>
 			</div>
 			<div id="menu">
@@ -53,11 +40,17 @@
 			</div>
 			<div class="mainText" id="about">
 				<h3>About</h3>
-				<p>Under Construction...</p>
+				<p>My name is Itai David Hass. Generally, I am referred to as David, my middle name, but any name, on the condition that it is used consistently and with my consent, may be used (I am a pragmatist).</p>
+				<p>I am a student of Computer Science and Philosophy at <a href="http://www.utoronto.ca">University of Toronto</a>. More specifically, I am specializing in computer science's <a href="http://web.cs.toronto.edu/program/ugrad/programs/Languages_and_Logic.htm">formal languages and logic</a> and majoring in <a href="http://philosophy.utoronto.ca">philosophy</a>.</p>
+				<p>During the Fall 2012 semester I will be acting as TA for PHL245H5 Modern Symbolic Logic.</p>
 			</div>
 			<div class="mainText" id="csc">
 				<h3>Computer Science</h3>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+				<p>I write code in <a href="http://www.python.org">Python</a>, <a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>, and am currently proceeding to become fluent in <a href="http://www.ruby-lang.org/en/">Ruby</a>, with the intention of using <a href="http://rubyonrails.org">Ruby On Rails</a>.</p>
+				<p>I love computer science for two reasons:
+					<p> - Great code is beautiful</p>
+					<p> - Great problems demand great code, which as I said, is beautiful</p>
+				</p>
 			</div>
 			<div class="mainText" id="phl">
 				<h3>Philosophy</h3>
@@ -103,7 +96,7 @@
 			    $("#about").hide("slow");
 			    $("#contact").show("slow");
 			});
-			$("li").mouseover(function() {
+			$("div#menu > ul li").mouseover(function() {
 			    $(this).animate({
 				    color: fontColor,
 					margin: '0 0 0 20px'

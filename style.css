@@ -17,22 +17,22 @@ body {
 }
 
 h1 {
-	font-size: 100px;
+	font-size: 70px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	cursor: default;
 }
 
 h2 {
-	//
 }
 
 h3 {
 	text-align: left;
-	padding: 0 0 20px 20px;
+	padding-left: 20px;
 }
 
 p {
+	margin-top: 20px;
 	line-height: 150%;
 }
 
@@ -69,11 +69,9 @@ div#menu > ul li {
 	text-align: left;
 	padding: 10px 0px;
 	color: #999;
-	/*background-color: yellow;*/
 }
+
 div#menu > ul li:hover {
-	/*background-color: white;
-		color: black;*/
 }
 
 .mainText {
@@ -82,16 +80,21 @@ div#menu > ul li:hover {
 	float: right;
 }
 
-.mainText a{
+.mainText a {
 	color: #1C8FE1;
 	text-decoration: underline;
 }
 
-.mainText a:hover{
+.mainText a:hover {
 	color: #E1899F;
 }
 
-.mainText p{
+.mainText p {
 	text-align: justify;
 	padding-left: 20px;
+}
+
+.mainText li {
+	text-align: left;
+	mar
 }
