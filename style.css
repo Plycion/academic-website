@@ -13,7 +13,6 @@ body {
 	background-color: black;
 	color: white;
 	font-family: 'Droid Sans Mono', sans-serif;
-	line
 }
 
 h1 {
@@ -96,5 +95,10 @@ div#menu > ul li:hover {
 
 .mainText li {
 	text-align: left;
-	mar
+	padding-left: 20px;
+	line-height: 150%;
+}
+
+.mainText li:before {
+	content: " - ";
 }
