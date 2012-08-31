@@ -5,9 +5,7 @@
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="http://www.bitstorm.org/jquery/color-animation/jquery.animate-colors-min.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		
 		<!-- <link rel="stylesheet" type="text/css" href="div_color.css"> -->
-		
 <!--		<link rel="stylesheet" type="text/css" href="ubuntu-style.css">
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'> -->
 		
@@ -20,7 +18,7 @@
 		<title>Itai David Hass</title>
 	</head>
 	<body>
-
+		
 		<div id="mainBlock">
 			<div id="header">
 				<h1>
@@ -50,76 +48,24 @@
 				<p>I love computer science for two reasons:
 					<ul>
 						<li>Great code is beautiful (Programming)</li>
-						<li>Great problems demand great code, which as I said, is beautiful (Computer Science)</li>
+						<li>Great problems demand great code, which I repeat, is beautiful (Computer Science)</li>
 					</ul>
 				</p>
 			</div>
 			<div class="mainText" id="phl">
 				<h3>Philosophy</h3>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+				<p>I am interested in epistemology, meta-ethics, normative ethics and logic.</p>
 			</div>
 			<div class="mainText" id="contact">
 				<h3>Contact</h3>
 				<p>I can be reached regarding anything at
-					<a href="http://www.google.com/recaptcha/mailhide/d?k=014-yYgfQSNvMYkFx1oXO9mA==&amp;c=XzZdWuOmWrJ9NOUIDxKAKG8ZYyuhMWNI0A2Oo1dneLM=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\075014-yYgfQSNvMYkFx1oXO9mA\75\75\46c\75XzZdWuOmWrJ9NOUIDxKAKG8ZYyuhMWNI0A2Oo1dneLM\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">my email</a>.
+					<a href="http://www.google.com/recaptcha/mailhide/d?k=01bTgYvnKem42qSQc6mNVQEA==&amp;c=32AvZb2Hu1jnHozdx0h6fFSmZN1F4pH7BinfOYjamiQ=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501bTgYvnKem42qSQc6mNVQEA\75\75\46c\07532AvZb2Hu1jnHozdx0h6fFSmZN1F4pH7BinfOYjamiQ\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">my email</a>.
 					</p>
 				
 			</div>
 		</div>
-		
-		<script type="text/javascript">
-			
-			var fontColor = '#ffffff';
-		
-			$("#csc").hide();
-			$("#phl").hide();
-			$("#contact").hide();
-			$("#aboutButton").click(function() {
-			    $("#csc").hide("slow");
-			    $("#phl").hide("slow");
-			    $("#contact").hide("slow");
-			    $("#about").show("slow");
-			});
-			$("#cscButton").click(function() {
-			    $("#about").hide("slow");
-			    $("#phl").hide("slow");
-			    $("#contact").hide("slow");
-			    $("#csc").show("slow");
-			});
-			$("#phlButton").click(function() {
-			    $("#csc").hide("slow");
-			    $("#about").hide("slow");
-			    $("#contact").hide("slow");
-			    $("#phl").show("slow");
-			});
-			$("#contactButton").click(function() {
-			    $("#csc").hide("slow");
-			    $("#phl").hide("slow");
-			    $("#about").hide("slow");
-			    $("#contact").show("slow");
-			});
-			$("div#menu > ul li").mouseover(function() {
-			    $(this).animate({
-				    color: fontColor,
-					margin: '0 0 0 20px'
-				 }, 200)
-			}).mouseout(function() {
-				$(this).animate({
-				    color: '#999',
-					margin: '0'
-				 }, 200)
-			});
-			$("h1").mouseover(function() {
-			    $(this).animate({
-					color: '#1C8FE1'
-				 }, 200)
-			}).mouseout(function() {
-				$(this).animate({
-				    color: fontColor
-				 }, 200)
-			});
-			
-		</script>
+
+		<script type="text/javascript" src="script.js"></script>
 	
 	</body>
 </html>
